@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="skibot_nav" type="skibot_nav_node.py" name="skibot_nav_node"/>
+    <node pkg="skibot" type="skibot_node.py" name="skibot_node"/>
+</launch>
