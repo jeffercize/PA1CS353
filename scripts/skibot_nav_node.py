@@ -96,7 +96,7 @@ class SkibotNav(object):
                 self.countdown += 1
             if self.countdown > 1500 : 
                 self.countdown = 0
-                #if the countdown has passed 1500 then the service is complete
+                #if the countdown has passed 1500 then the service is completed
                 return True
             self.vel_pub.publish(wrench)
 
